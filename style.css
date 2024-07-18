@@ -1,0 +1,57 @@
+/* *{
+    border:2px solid red;
+} */
+
+.parent{
+    height: 1000px;
+}
+.home{
+    background-image: url("./images/Rectangle\ 48.png");
+    height: calc(50%-100px)
+
+}
+
+
+
+.app-btn{
+    color:white !important;
+    background-color: transparent !important;
+    border:1px solid white !important;
+}
+
+.image-container img{
+    position: relative;
+    top:-250px;
+}
+
+@media (max-width:576px){
+    .home{
+        background-image: none;
+        color:black !important;
+    }
+
+    .app-btn{
+        color:red !important;
+        border:1px solid red !important;
+    }
+
+
+    .image-container img{
+
+        position: relative;
+        top:-200px;
+        margin: 20px;
+    }
+    
+}
+
+
+.box{
+    height:100px;
+    width: 100px;
+background-color: rgba(206, 28, 28,1);
+}
+
+.box:hover{
+    width: 200px;
+}
